@@ -2,7 +2,7 @@
 #
 # You will need to change all of the capitalized variables below according
 # to your Github setup. For example, if your site and data repositories are:
-# -- https://github.com/my-awesome-github-org/my-awesome-site-repo
+# -- https://github.com/my-awesome-github-org/my-awesome-site-repo  https://github.com/dennis-ECCC/open-sdg-site-starter
 # -- https://github.com/my-awesome-github-org/my-awesome-data-repo
 # Then you would want to make these replacements throughout this file:
 # -- replace "my-github-org" with "my-awesome-github-org"
@@ -10,7 +10,7 @@
 # -- replace "open-sdg-data-starter" with "my-awesome-data-repo"
 
 # Replace this title as needed.
-title: Indicators For The Sustainable Development Goals
+title: Indicators For Environmental Sustainability and Sustainable Development Goals
 # Replace the baseurl with the name of this repository.
 baseurl: "/open-sdg-site-starter"
 url: ""
@@ -22,16 +22,16 @@ remotedatabaseurl: "https://my-github-org.github.io/open-sdg-data-starter"
 jekyll_get_json:
   - data: meta
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/meta/all.json'
+    json: 'https://dennis-ECCC.github.io/open-sdg-data-starter/meta/all.json'
   - data: headlines
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/headline/all.json'
+    json: 'https://dennis-ECCC.github.io/open-sdg-data-starter/headline/all.json'
   - data: schema
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/meta/schema.json'
+    json: 'https://dennis-ECCC.github.io/open-sdg-data-starter/meta/schema.json'
   - data: reporting
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://my-github-org.github.io/open-sdg-data-starter/stats/reporting.json'
+    json: 'https://dennis-ECCC.github.io/open-sdg-data-starter/stats/reporting.json'
   - data: translations
     json: 'https://open-sdg.github.io/sdg-translations/translations-0.5.2.json'
 
@@ -46,17 +46,16 @@ twitter: 'MyTwitterAccount'
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: dennis.ofarrell@canada.ca
+  suggestions: dennis.ofarrell@canada.ca
+  functional: dennis.ofarrell@canada.ca
 
 # Github Repo for Data
 # Replace this value as needed.
 repo_name: open-sdg-data-starter
 branch: develop
 # Replace this value as needed.
-org_name: my-github-org
-
+org_name: dennis-ECCC
 # Build settings
 markdown: kramdown
 
@@ -66,12 +65,12 @@ exclude: [vendor, scripts, remotedata]
 # International Support
 # Eg name: Australia and adjective: Australian
 country:
-  name: Australia
-  adjective: Australian
+  name: Canada
+  adjective: Canadian
 
 # Optionally uncomment and update the settings below to control the frontpage heading and instructions.
-#frontpage_heading: Australian data for Sustainable Development Goal indicators
-#frontpage_instructions: Click on each goal, or <span id="jump-to-search"><a>search</a></span>, for Australian statistics for Sustainable Development Goal global indicators.
+frontpage_heading: Canadian data for Sustainable Development Goal indicators
+frontpage_instructions: Click on each goal, or <span id="jump-to-search"><a>search</a></span>, for Canadian statistics for Sustainable Development Goal global indicators.
 
 # Pages
 collections:
